@@ -1,0 +1,13 @@
+Style/ClassAndModuleChildren:
+  Exclude:
+    - 'test/channels/application_cable/connection_test.rb'
+    - 'test/test_helper.rb'
+
+Layout/LineLength:
+  Exclude:
+    - 'test/test_helper.rb'
+    - 'db/**/*'
+    - 'config/**/*'
+
+Documentation:
+  Enabled: false
